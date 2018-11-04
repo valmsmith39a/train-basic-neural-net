@@ -1,0 +1,15 @@
+#torch.nn is a:
+  *Fully-connected ReLU network
+  *Trained to predict y from x by minimizing squared Euclidean distance
+#forward pass:
+  *Computes values from inputs to output (at each artificial neuron, for all the neurons in all the layers)
+#backward pass:
+  *Performs backpropagation 
+    +Starts at the end of the network and recursively applies
+    the chain rule to compute the gradients (at each artificial neuron)
+    all the way to the inputs of the circuit
+#pass: A forward and backward pass (forward and backward count as 1 pass)
+#iteration: Number of passes 
+#batch size:
+  *The number of training examples in one pass (forward/backward)
+#epoch: one forward and one backward pass of *all* training examples
