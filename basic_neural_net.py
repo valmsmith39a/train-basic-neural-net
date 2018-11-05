@@ -31,4 +31,3 @@ for epoch in range(50):
 
     # Update the parameters
     optimizer.step()
-    
